@@ -1,5 +1,3 @@
-# Planet_image_extraction
-
 # Planet Imagery Extraction (AOI search → preview footprints → clip order → download)
 
 Search Planet scenes over your AOI, preview **footprints** on an interactive map, and place **Orders API** jobs to **clip** and **download** imagery bundles—reliably and repeatably.
