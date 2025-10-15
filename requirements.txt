@@ -1,0 +1,8 @@
+# Core
+requests>=2.31
+folium>=0.14
+
+# Geo stack (pip wheels are available on macOS/Linux; Windows may be tricky)
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.5
