@@ -1,0 +1,18 @@
+---
+
+## 📦 environment.yml (Conda)
+
+```yaml
+name: planet-imagery-extraction
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas>=0.14
+  - shapely>=2.0
+  - folium>=0.14
+  - requests>=2.31
+  - fiona>=1.9
+  - pyproj>=3.5
+  - gdal
+  - pip
