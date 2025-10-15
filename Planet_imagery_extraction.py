@@ -381,7 +381,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     args = parse_args(argv)
     setup_logging(args.verbose)
 
-    api_key = os.environ.get("PL_API_KEY", "34c0d453a1a94c1fba8cbc279125b55b").strip()
+    api_key = os.environ.get("PL_API_KEY", "").strip()
     if not api_key:
         logger.error("Environment variable PL_API_KEY is not set. Aborting.")
         return 2
@@ -486,4 +486,5 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 
 if __name__ == "__main__":
+
     sys.exit(main())
