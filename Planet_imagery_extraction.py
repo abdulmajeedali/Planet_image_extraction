@@ -462,7 +462,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         item_type = match["properties"]["item_type"]
 
         # Persist a reference list (mask API key)
-        orders_list.append(f"(api_key=****, item_id={chosen_item_id}, item_type={item_type}, aoi_wkt={geom.wkt[:120]}...)")
+        orders_list.append(f"(api_key={api_key}, item_id={chosen_item_id}, item_type={item_type}, aoi_wkt={geom.wkt})")
 
         if args.order:
             order_idx += 1
@@ -488,3 +488,4 @@ def main(argv: Optional[List[str]] = None) -> int:
 if __name__ == "__main__":
 
     sys.exit(main())
+
