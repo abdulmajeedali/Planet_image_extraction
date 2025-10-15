@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_aoi",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "sample_aoi_columbus"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-83.0300, 39.9900],
+            [-83.0300, 40.0000],
+            [-83.0100, 40.0000],
+            [-83.0100, 39.9900],
+            [-83.0300, 39.9900]
+          ]
+        ]
+      }
+    }
+  ]
+}
